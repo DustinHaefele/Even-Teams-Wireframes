@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dustin Haefele</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <nav role="navigation">Nav</nav>
+    <header role="banner">
+      <h1>EVEN TEAMS</h1>
+      <span>
+        Let us pick your teams, because every one wants a chance to win, and no
+        one wants to be picked last!
+      </span>
+    </header>
+
+    <section class="category" role="region">
+      <h3>How to use the App</h3>
+      <span>
+        All you have to do now is tell us how many teams you want and we'll make
+        your teams!  You can also add delete or edit your players below.
+      </span>
+    </section>
+
+    <section class="category" role="region">
+      <h3>User Group Name</h3>
+      <ul>
+        <li>
+          <span>Player 1</span>
+          <button>Modify</button>
+          <button>Delete</button>
+        </li>
+        <li>
+          <input name="player-name-edit" value="Player 2" />
+          <input
+            type="number"
+            name="skill-level-edit"
+            min="1"
+            max="100"
+            value="54"
+          />
+          <button>Submit</button>
+        </li>
+        <li>
+          <span>Player 3</span>
+          <button>Modify</button>
+          <button>Delete</button>
+        </li>
+        <li>
+          <span>Player 4</span>
+          <button>Modify</button>
+          <button>Delete</button>
+        </li>
+        <li>
+          <span>Player 5</span>
+          <button>Modify</button>
+          <button>Delete</button>
+        </li>
+        <li><button>Add Player</button></li>
+      </ul>
+      <label for="team-number">How many teams do you want?</label>
+      <input type="number" name="team-number" min="1" max="100" value="3" />
+      <button>Make My Teams</button>
+    </section>
+
+    <section class="category" role="region">
+      <h3>Teams</h3>
+      <div class="team">
+        <h4>Team 1</h4>
+        <ul>
+          <li>Player 2</li>
+          <li>Player 3</li>
+        </ul>
+      </div>
+      <div class="team">
+        <h4>Team 2</h4>
+        <ul>
+          <li>Player 1</li>
+          <li>Player 5</li>
+        </ul>
+      </div>
+      <div class="team">
+        <h4>Team 3</h4>
+        <ul>
+          <li>Player 4</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer role="content-info">FOOTER</footer>
+  </body>
+</html>

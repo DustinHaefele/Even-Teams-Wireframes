@@ -11,6 +11,15 @@ header {
   padding:15% 0;
 }
 
+ul{
+  list-style: none;
+  border: 1px solid black;
+}
+
+li{
+  margin: 5px;
+}
+
 section {
   min-height: 250px;
   margin: 0 2%;
@@ -35,6 +44,11 @@ nav{
   z-index: 20;
   background-color: black;
   color: white;  
+}
+
+a{
+  color: blue;
+  text-decoration: underline;
 }
 
 section:nth-of-type(even) {
