@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dustin Haefele</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <nav role="navigation">Nav</nav>
+    <header role="banner">
+      <h1>EVEN TEAMS</h1>
+      <p>
+        Let us pick your teams, because every one wants a chance to win, and no
+        one wants to be picked last!
+      </p>
+    </header>
+
+    <section class="category" role="region">
+      <h3>About Even Teams</h3>
+      <p>
+        Have you ever had to be a captain for a pick up game of soccer? Or have
+        you ever organized a single person sign up tournament? Than you know how
+        hard it can be to make teams as even as possible. No one wants to come
+        out and play a friendly game of volleyball on a wednesday night and lose
+        25-10. That's where we come in. We take the best even split algorithm
+        available and put it to work to make your teams as even as
+        scientifically possible!
+      </p>
+    </section>
+
+    <section class="category" role="region">
+      <h3>How to use the App</h3>
+      <p>
+        To use the app, create a new group below. You tell us how many players
+        you have. Fill out the names and skill levels of each player and let us
+        create as many teams as you need in the most even way possible.
+      </p>
+    </section>
+
+    <section class="category" role="region">
+      <h3>Create A New Group</h3>
+      <form>
+        <div class="block">
+          <label for="group-name">What do you want to name your group?</label>
+          <input
+            type="text"
+            id="group-name"
+            name="group-name"
+            placeholder="New Group Name"
+          />
+        </div>
+        <div class="block">
+          <label for="quantity">How many players do you have?</label>
+          <input
+            type="number"
+            name="quantity"
+            min="1"
+            max="10000"
+            placeholder="1"
+          />
+        </div>
+        <button type="submit">Create Group</button>
+      </form>
+    </section>
+    
+    <section class="category" role="region">
+      <h3>Find your group</h3>
+      <form>
+        <div class="block">
+          <label for="group-name">Find Your group: </label>
+          <input
+            type="text"
+            id="group-name"
+            name="group-name"
+            placeholder="Search For your group"
+          />
+        </div>
+        <button type="submit">Search</button>
+      </form>
+    </section>
+
+    <footer role="content-info">FOOTER</footer>
+  </body>
+</html>
